@@ -4,11 +4,14 @@
   "description": "[![Actions Status](https://github.com/buldogic/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/buldogic/frontend-project-12/actions)",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm ci --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hexlet/chat-server": "^2.0.0"
+    "@hexlet/chat-server": "^1.1.9"
   }
 }
