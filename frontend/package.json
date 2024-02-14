@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://0.0.0.0:5001",
+  "proxy": "http://localhost:5001",
   "engines": {
     "node": "v18.17.1"
   },
