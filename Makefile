@@ -10,7 +10,7 @@ start-frontend:
 start-backend:
 	npx start-server
 
- deploy:
+deploy:
 	git push heroku main
 
 start:
